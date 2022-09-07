@@ -1,0 +1,11 @@
+# *  Genera una tupla 
+# ** Genera un diccionario
+def funcionQueSuma(*zaraza):
+    total = 0
+    for i in zaraza:
+        total += i
+    
+    return total /len(zaraza)
+    
+    
+print(funcionQueSuma(1,2,8,9,8,7,8,7,5,5,4,4))
