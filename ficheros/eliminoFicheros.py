@@ -10,9 +10,9 @@ else:
 
 
 
-f = 'bienvenido.txt'
+#f = 'bienvenido.txt'
 
-if os.path.isfile(f):
-    os.remove(f)
-else:
-    print("No pude borrarlo")
+#if os.path.isfile(f):
+ #   os.remove(f)
+#else:
+  #  print("No pude borrarlo")
